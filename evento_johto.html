@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Evento - Liga Johto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Liga Pokémon de Johto</h1>
+    </header>
+    <main>
+        <section id="detalhes-evento">
+            <h2>Detalhes do Evento</h2>
+            <p>Prepare-se para batalhas emocionantes na Liga Pokémon de Johto!</p>
+            <h3>Semifinais</h3>
+            <ul>
+                <li>Ash vs. Harrison</li>
+                <li>Jon Dickson vs. Vincent</li>
+            </ul>
+        </section>
+        <section id="cadastro">
+            <h2>Cadastre-se para o Evento</h2>
+            <form id="form-cadastro">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <div id="mensagem-sucesso" style="display: none;"></div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
